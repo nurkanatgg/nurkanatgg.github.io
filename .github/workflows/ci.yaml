@@ -8,6 +8,15 @@ on:
     paths-ignore:
       - '.github/workflows/**'
 
+  # This repo only pushes when the portfolio/blog content itself changes, but
+  # the résumé button always fetches whatever is *currently* latest over in
+  # tuchaVshortah/resume — a repo this one has no push-based trigger for. Without
+  # this, a new résumé release sits unfetched until someone happens to touch
+  # this repo too (see: the button silently going ~6 weeks stale between the
+  # Jul 29 and Sep 2026 deploys). Daily rebuild keeps the button self-healing.
+  schedule:
+    - cron: '17 4 * * *'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
