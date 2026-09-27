@@ -635,14 +635,14 @@ export default function Home() {
 
               <div className="grid sm:grid-cols-3 gap-4">
                 <a
-                  href="mailto:nurkanat@nurkanatb.kz"
+                  href="mailto:nurkanat@nurkanat.gg"
                   className="flex flex-col items-center text-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 transition-colors"
                 >
                   <span className="w-10 h-10 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-600 dark:text-teal-400">
                     <Mail className="h-5 w-5" />
                   </span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">Email</span>
-                  <span className="text-sm text-gray-800 dark:text-white break-all">nurkanat@nurkanatb.kz</span>
+                  <span className="text-sm text-gray-800 dark:text-white break-all">nurkanat@nurkanat.gg</span>
                 </a>
 
                 <a
@@ -744,7 +744,7 @@ export default function Home() {
                 <KeyRound className="h-5 w-5" />
                 <span className="sr-only">Keybase</span>
               </a>
-              <a href="mailto:nurkanat@nurkanatb.kz" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="mailto:nurkanat@nurkanat.gg" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </a>
