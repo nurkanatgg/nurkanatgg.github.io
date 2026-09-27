@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
 import { motion, AnimatePresence } from "framer-motion"
-import { BookOpen, Cloud, Code, Database, ExternalLink, FileText, Github, Globe, Linkedin, Mail, Menu, Server, Shield, X } from "lucide-react"
+import { BookOpen, Cloud, Code, Database, ExternalLink, FileText, Github, Globe, KeyRound, Linkedin, Mail, Menu, Send, Server, Shield, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const NAV_SECTIONS = ["home", "about", "experience", "projects", "skills", "contact"]
@@ -646,7 +646,20 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/nurkanat-baisenkul/"
+                  href="https://nurkanat.gg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center text-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 transition-colors"
+                >
+                  <span className="w-10 h-10 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-600 dark:text-teal-400">
+                    <Globe className="h-5 w-5" />
+                  </span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">Website</span>
+                  <span className="text-sm text-gray-800 dark:text-white break-all">nurkanat.gg</span>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/nurkanatgg"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center text-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 transition-colors"
@@ -655,7 +668,7 @@ export default function Home() {
                     <Linkedin className="h-5 w-5" />
                   </span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">LinkedIn</span>
-                  <span className="text-sm text-gray-800 dark:text-white break-all">in/nurkanat-baisenkul</span>
+                  <span className="text-sm text-gray-800 dark:text-white break-all">in/nurkanatgg</span>
                 </a>
 
                 <a
@@ -669,6 +682,32 @@ export default function Home() {
                   </span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">GitHub</span>
                   <span className="text-sm text-gray-800 dark:text-white break-all">nurkanatgg</span>
+                </a>
+
+                <a
+                  href="https://t.me/nurkanatgg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center text-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 transition-colors"
+                >
+                  <span className="w-10 h-10 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-600 dark:text-teal-400">
+                    <Send className="h-5 w-5" />
+                  </span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">Telegram</span>
+                  <span className="text-sm text-gray-800 dark:text-white break-all">t.me/nurkanatgg</span>
+                </a>
+
+                <a
+                  href="https://keybase.io/nurkanatgg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center text-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 transition-colors"
+                >
+                  <span className="w-10 h-10 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-600 dark:text-teal-400">
+                    <KeyRound className="h-5 w-5" />
+                  </span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">Keybase</span>
+                  <span className="text-sm text-gray-800 dark:text-white break-all">keybase.io/nurkanatgg</span>
                 </a>
               </div>
             </div>
@@ -685,13 +724,25 @@ export default function Home() {
             </div>
 
             <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/in/nurkanat-baisenkul/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="https://nurkanat.gg" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+                <Globe className="h-5 w-5" />
+                <span className="sr-only">Website</span>
+              </a>
+              <a href="https://www.linkedin.com/in/nurkanatgg" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a href="https://github.com/nurkanatgg" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
+              </a>
+              <a href="https://t.me/nurkanatgg" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+                <Send className="h-5 w-5" />
+                <span className="sr-only">Telegram</span>
+              </a>
+              <a href="https://keybase.io/nurkanatgg" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+                <KeyRound className="h-5 w-5" />
+                <span className="sr-only">Keybase</span>
               </a>
               <a href="mailto:nurkanat@nurkanatb.kz" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Mail className="h-5 w-5" />
