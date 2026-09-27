@@ -1,4 +1,4 @@
-baseURL: https://nurkanatb.kz/blog
+baseURL: https://nurkanat.gg/blog
 theme: papermod-l50
 title: Nurkanat's Blog
 publishDir: out/
@@ -7,12 +7,12 @@ taxonomies:
   category: categories
 languages:
   en:
-    title: nurkanatb.kz
+    title: nurkanat.gg
     languageName: English
     weight: 1
 params:
   editPost:
-    URL: "https://github.com/tuchaVshortah/tuchaVshortah.github.io/tree/main/content"
+    URL: "https://github.com/nurkanatgg/nurkanatgg.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
   comments: true
@@ -47,22 +47,22 @@ params:
   # comments: false
   author: Nurkanat Baisenkul
   contact:
-    email: "nurkanat@nurkanatb.kz"
+    email: "nurkanat@nurkanat.gg"
   homeInfoParams:
     Title: "Hello"
     Content: >
       👋 Welcome to my blog. Here I share my thoughts and ideas.
   socialIcons:
     - name: email
-      url: "mailto:nurkanat@nurkanatb.kz"
+      url: "mailto:nurkanat@nurkanat.gg"
     - name: github
-      url: "https://github.com/tuchaVshortah"
+      url: "https://github.com/nurkanatgg"
     - name: keybase
-      url: "https://keybase.io/nurkanat"
+      url: "https://keybase.io/nurkanatgg"
     - name: "key"
-      url: "https://keybase.io/nurkanat/pgp_keys.asc"
+      url: "https://keybase.io/nurkanatgg/pgp_keys.asc"
     - name: linkedin
-      url: "https://www.linkedin.com/in/nurkanat-baisenkul/"
+      url: "https://www.linkedin.com/in/nurkanatgg/"
   env: production
 environments:
   production:
