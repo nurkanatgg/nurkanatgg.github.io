@@ -659,7 +659,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://github.com/tuchaVshortah"
+                  href="https://github.com/nurkanatgg"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center text-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-400 hover:bg-teal-50 dark:hover:bg-teal-900/20 transition-colors"
@@ -668,7 +668,7 @@ export default function Home() {
                     <Github className="h-5 w-5" />
                   </span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">GitHub</span>
-                  <span className="text-sm text-gray-800 dark:text-white break-all">tuchaVshortah</span>
+                  <span className="text-sm text-gray-800 dark:text-white break-all">nurkanatgg</span>
                 </a>
               </div>
             </div>
@@ -689,7 +689,7 @@ export default function Home() {
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="https://github.com/tuchaVshortah" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="https://github.com/nurkanatgg" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>

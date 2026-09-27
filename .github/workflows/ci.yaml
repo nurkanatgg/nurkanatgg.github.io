@@ -10,7 +10,7 @@ on:
 
   # This repo only pushes when the portfolio/blog content itself changes, but
   # the résumé button always fetches whatever is *currently* latest over in
-  # tuchaVshortah/resume — a repo this one has no push-based trigger for. Without
+  # nurkanatgg/resume — a repo this one has no push-based trigger for. Without
   # this, a new résumé release sits unfetched until someone happens to touch
   # this repo too (see: the button silently going ~6 weeks stale between the
   # Jul 29 and Sep 2026 deploys). Daily rebuild keeps the button self-healing.
@@ -79,21 +79,21 @@ jobs:
           mkdir public
           mkdir public/blog
 
-      # The résumé is built and released by tuchaVshortah/resume's own CI.
+      # The résumé is built and released by nurkanatgg/resume's own CI.
       # Pull the current release asset into portfolio/public so the site serves
       # it at /resume.pdf and can never ship a stale copy. The résumé repo is
       # private, so this needs the RESUME_REPO_TOKEN secret: a fine-grained PAT
-      # with contents:read on tuchaVshortah/resume.
+      # with contents:read on nurkanatgg/resume.
       - name: Fetch résumé from resume repo release
         env:
           GH_TOKEN: ${{ secrets.RESUME_REPO_TOKEN }}
         run: |
           set -euo pipefail
           if [ -z "${GH_TOKEN:-}" ]; then
-            echo "::error::RESUME_REPO_TOKEN is not set — cannot fetch resume.pdf. Add a fine-grained PAT with contents:read on tuchaVshortah/resume."
+            echo "::error::RESUME_REPO_TOKEN is not set — cannot fetch resume.pdf. Add a fine-grained PAT with contents:read on nurkanatgg/resume."
             exit 1
           fi
-          gh release download --repo tuchaVshortah/resume \
+          gh release download --repo nurkanatgg/resume \
             --pattern 'resume.pdf' \
             --output portfolio/public/resume.pdf --clobber
           # Fail loudly rather than deploying a site whose Résumé button 404s.
