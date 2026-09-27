@@ -1,88 +1,56 @@
 ==================================================================
-https://keybase.io/nurkanat
+https://keybase.io/nurkanatgg
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://nurkanatb.kz
-  * I am nurkanat (https://keybase.io/nurkanat) on keybase.
-  * I have a public key with fingerprint 97DC B764 AABC B7E1 F1A9  3E67 471F 1A36 761B A23D
+  * I am an admin of https://nurkanat.gg
+  * I am nurkanatgg (https://keybase.io/nurkanatgg) on keybase.
+  * I have a public key ASD6XgtwMlgHArZogjyT3d6VdWlzUmtltIJpxEQl6KiFhAo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "01014ead9ab0bea8813d62180ff92f5b565b9fcba0011d2b405d6be420734059dca70a",
-      "fingerprint": "97dcb764aabcb7e1f1a93e67471f1a36761ba23d",
+      "eldest_kid": "0120fa5e0b7032580702b668823c93ddde95756973526b65b48269c44425e8a885840a",
       "host": "keybase.io",
-      "key_id": "471f1a36761ba23d",
-      "kid": "0101a59557197a5f4999f1170aff8fbfb3f3a658dc2c4c0eb6762e08fd137346c97d0a",
-      "uid": "3c8b7779d2132a0729326828981fac19",
-      "username": "nurkanat"
+      "kid": "0120fa5e0b7032580702b668823c93ddde95756973526b65b48269c44425e8a885840a",
+      "uid": "336c7d00312ae0804d9903fe3d890919",
+      "username": "nurkanatgg"
     },
     "merkle_root": {
-      "ctime": 1732213729,
-      "hash_meta": "4ef737f1ae8b1c226df0a7e33d37fef027093325b588fd367ca32f5841628c54",
-      "seqno": 26316746
-    },
-    "revoke": {
-      "sig_ids": [
-        "2d1830a002b7f29fe2491fe4b21d6e814b155b5679577f88b7df6e121940cdb40f"
-      ]
+      "ctime": 1790541802,
+      "hash": "ecc6711017248ed23431b83ac123f742791b4c575c3f11306aa982ee662122eb9ac3943ec2875280dab1f14b69bc6902fbce5153bac75b3fa00ea08de0a0b66d",
+      "hash_meta": "0664cc5dc6516963edda553e01f54d16fb70d281dbaa1403653f4e5651ad183c",
+      "seqno": 27793699
     },
     "service": {
-      "hostname": "nurkanatb.kz",
+      "entropy": "ysPbJLQPDJ+C1onqmMtGLXnn",
+      "hostname": "nurkanat.gg",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
-  "ctime": 1732213767,
-  "expire_in": 157680000,
-  "prev": "9197528e29e5f91d97cba8cff8b91901921bf601a751f6a4ecf041d7bdd53790",
-  "seqno": 26,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.6.3"
+  },
+  "ctime": 1790541814,
+  "expire_in": 504576000,
+  "prev": "a6831be282a32164bf94132772102b014d13464416882cf84ae6ab2748b6ace6",
+  "seqno": 14,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.1.13
-Comment: https://keybase.io/crypto
-
-yMP7AnicbVN7bBRFHG4p9JUALSAojRCWYnkcsDP7mJ0TAa2EWANIRSOhcMzszvSu
-194e9yhSigXENNJSoaHKw9aEysMQBHwEGhGwKrUppGkQLrxES5WHqFCMtlCKs41G
-Q9x/Znbmm2++3/f95quBCXGp8bNHj9SLM3Y8Fd/SuDwalz+jNGmlRG1rheReKflZ
-38AKLRaOePw+S3JLMpCByoiFCZUpI4YBFEuHwJA5x5BrVNM1irlJiSwDYEGqypql
-U6ZCGSliji2TIJlILon7AvksFAz5AhFBi5FlUqSrhFAxMsABwQrTkYqcqaIjHVAC
-FUsc9Nph54QQR0mYTfHZYk38ePrk/Q/+X91Ew5qGAEZE4yrGmAMgtHBucMqpwhWi
-a4ZlQlM1ZUYFBWSywS2gCOW6KRT26Y720SmmQRFC2IJAgURGECtQN6CBDcCJCbAD
-DLNQgBQxgQ5EQ34SIBFplUsqYiF/IfOEbDvimGtGfA4EIAUKKsEjCiRhr6eIRYhT
-D+NIQaIkZlBgQqhbXCaIKYolVhmXIZKxokDhuyGkirpNoogYDBXo0DA1VegIs2UB
-W3JDXQHCT11ICLFi28+c28O+fOFbWHIvkqAFDEUWsUGKOMScQRUDzlQKgaUzA6gU
-aE68CGsIcUOUb3GdAQiwKpuWyJlLi1c5t4WKfWYfuRPUQwbQKf4SISkYsiO2aReK
-HW8kEgy7HWMiK4IOdDmjnr9JPNQXsESbiBPFLBT22QFhlEA+5JmOXBJ7NegLMY/P
-QWhIN2TxOfewYqe5ROQaNBjETOMYWBiJ/jRMETwVWzLAEFCui/5AGuA6UZnJZRVY
-iFqWpiAs/9dEoZPkC07hnKgnGmLSqsYv8vrHxafGJQ7o57yfuNSUtH9e1ZU9gx+U
-3NrdNOq5E52rKx7Po3uu9RYlN2wZmLRsU83JTcM3Tw8mn0naOGHAqcq70UkdJbGb
-rw+dXd5YVXmzt+yc+1Dd/Y7WIxlVnz6SM+/wrsqjz3ZWHz2Gur75rKntTi5pSJjw
-Q1PC2ylz734PF+hpCzfGehp8W3LLhxp/FgyZWLB1Slf8zkVay9yT76DEtdMPt7/S
-uSZzW2/NvZ45v02f352cPS5jjmvywZF674xJp196Lzb/Rosy8mzbttLxj3a2D69K
-u3CtqCtakF1qV19u3vtt2a7q2n2DD917IvHc/verN8tXr3uPZ9ddqh+Uc2Oiu+bL
-2re2ZtYcO2ju6+lfd6r2QPfY2pLk06kzUzz5sLE+a+Hkx0asO+d6bTP/erbvzYSy
-ra4rg85PzVozxH8/13v7p/4f5XTpa9ct2t5yttU9ZveTzSPqrcCsJm9xOW9vSe7I
-qfpdOrC0+8DSORfTx12ft3/v82PPD66bVJGr3vlkMd41bUxrdJqXVBZOjDV/PLr7
-3QfXtz+Tvh9nNifm/Dh0rNZz6Ubbmgf1Wetd8svrvvt5Z/r4S4WxvA0v8KJSz62E
-y+FRbS9WnhhyYYG/41eXXX8wJez/I3v1zBNLFvebuWHgsI6g+3Cidnz0rfXRD3nl
-nou7k3656kv/4Miwpws+f6Nsx6wB2TOmZi3MOGSX317Qvqwi58ySO5nB5rS4vMzE
-1tjc1VZaQ6zhL7Ug/Ic=
-=Q3H5
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+l4LcDJYBwK2aII8k93elXVpc1JrZbSCacREJeiohYQKp3BheWxvYWTESpcCDsQgpoMb4oKjIWS/lBMnchArAU0TRkQWiCz4SuarJ0i2rObEIETIwi+/KA4Ybs3z3hmNKMRB7trgtF00TUo0Qmhe9H1rAgHCo3NpZ8RAp5x+bJKQZT7OE7xgw9qJYmwxuOhfIsUVuzfwTbayEfVAt7VDTQ6t3Qp/BhmqXDn5TKTGAY3zJdAvpDvU8DdTBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGVGvVuP7VVI739O0hi87tkdtbfvgTfk08hJO/xjMcG1o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/nurkanat
+View my publicly-auditable identity here: https://keybase.io/nurkanatgg
 
 ==================================================================
