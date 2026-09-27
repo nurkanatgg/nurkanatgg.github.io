@@ -1,6 +1,6 @@
-# nurkanatb.kz
+# nurkanat.gg
 
-Source for [www.nurkanatb.kz](https://www.nurkanatb.kz) — the personal site of **Nurkanat Baisenkul**, a Platform, Solutions & Security Engineer.
+Source for [nurkanat.gg](https://nurkanat.gg) — the personal site of **Nurkanat Baisenkul**, a Platform, Solutions & Security Engineer.
 
 The site is two projects built together and deployed to GitHub Pages:
 
@@ -14,7 +14,7 @@ The site is two projects built together and deployed to GitHub Pages:
 The résumé is **not** stored in this repo. It is built and released by
 [`nurkanatgg/resume`](https://github.com/nurkanatgg/resume), and CI pulls the latest
 release asset into `portfolio/public/resume.pdf` at build time, so the site serves it at
-[`/resume.pdf`](https://www.nurkanatb.kz/resume.pdf) and can never go stale.
+[`/resume.pdf`](https://nurkanat.gg/resume.pdf) and can never go stale.
 
 That repo is private, so the fetch needs a repository secret:
 
