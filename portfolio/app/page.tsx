@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
 import { motion, AnimatePresence } from "framer-motion"
-import { BookOpen, Cloud, Code, Database, ExternalLink, FileText, Github, Globe, KeyRound, Linkedin, Mail, Menu, Send, Server, Shield, X } from "lucide-react"
+import { BookOpen, Cloud, Code, Database, ExternalLink, FileText, Github, Globe, KeyRound, Linkedin, Mail, Menu, Send, Server, Shield, Trophy, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const NAV_SECTIONS = ["home", "about", "experience", "projects", "skills", "contact"]
@@ -86,6 +86,16 @@ const projects = [
     language: "Python",
     url: "https://github.com/tuchaVshortah/puff",
     description: "Passive subdomain enumeration tool for reconnaissance.",
+  },
+]
+
+const awards = [
+  {
+    title: "1st Place — CyberKumbez",
+    event: "KazHackStan 2026",
+    date: "2026",
+    description: "Team Pepe_schnelle, reverse engineering lead — solo-cracked all three RE challenges across a DFIR / RE / threat-hunting (SIEM) CTF.",
+    url: "https://kazhackstan.com",
   },
 ]
 
@@ -570,8 +580,34 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Publications & Languages */}
-            <div className="grid md:grid-cols-2 gap-6 mt-6">
+            {/* Awards, Publications & Languages */}
+            <div className="grid md:grid-cols-3 gap-6 mt-6">
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
+                <div className="flex items-center gap-2 mb-4">
+                  <Trophy className="h-5 w-5 text-teal-600 dark:text-teal-400" />
+                  <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Awards</h3>
+                </div>
+                <ul className="space-y-3">
+                  {awards.map((award, index) => (
+                    <li key={index} className="flex flex-col gap-1">
+                      <a
+                        href={award.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 dark:text-white text-sm font-medium hover:text-teal-600 dark:hover:text-teal-400"
+                      >
+                        {award.title}
+                      </a>
+                      <div className="flex justify-between gap-4">
+                        <p className="text-gray-500 dark:text-gray-400 text-xs">{award.event}</p>
+                        <span className="text-xs text-teal-600 dark:text-teal-400 whitespace-nowrap">{award.date}</span>
+                      </div>
+                      <p className="text-gray-500 dark:text-gray-400 text-xs">{award.description}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <BookOpen className="h-5 w-5 text-teal-600 dark:text-teal-400" />
