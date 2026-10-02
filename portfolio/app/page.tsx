@@ -94,7 +94,7 @@ const awards = [
     title: "1st Place — CyberKumbez",
     event: "KazHackStan 2026",
     date: "2026",
-    description: "Team Pepe_schnelle, reverse engineering lead — solo-cracked all three RE challenges across a DFIR / RE / threat-hunting (SIEM) CTF.",
+    description: "Team Pepe_schnelle, reverse engineering — solo-cracked all RE challenges and helped teammates with DFIR and threat hunting.",
     url: "https://kazhackstan.com",
   },
 ]
